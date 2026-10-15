@@ -1,0 +1,20 @@
+# Lakehouse data (catalog + Parquet files) and local databases
+*.ducklake
+*.ducklake.files/
+*.duckdb
+*.duckdb.wal
+
+# Raw source files
+*.csv
+*.csv.gz
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
